@@ -1,0 +1,13 @@
+torch
+torchvision
+Pillow
+numpy
+pandas
+streamlit
+plotly
+scipy
+PyMuPDF
+pypdf
+sentence-transformers
+faiss-cpu
+openai

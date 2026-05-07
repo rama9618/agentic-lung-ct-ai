@@ -1,0 +1,26 @@
+Test Evaluation
+===============
+
+Test loss: 0.3175
+Test accuracy: 0.9143
+
+Classification Report
+---------------------
+                              precision     recall   f1-score    support
+
+              adenocarcinoma       0.92       0.88       0.90        120
+        large.cell.carcinoma       0.86       0.96       0.91         51
+                      normal       1.00       0.98       0.99         54
+     squamous.cell.carcinoma       0.89       0.90       0.90         90
+
+                    accuracy                             0.91        315
+                   macro avg       0.92       0.93       0.92        315
+                weighted avg       0.92       0.91       0.91        315
+
+Confusion Matrix
+----------------
+actual \ predicted       adenocarcinoma  large.cell.carcinoma  normal  squamous.cell.carcinoma
+adenocarcinoma           105             7                     0       8                      
+large.cell.carcinoma     1               49                    0       1                      
+normal                   0               0                     53      1                      
+squamous.cell.carcinoma  8               1                     0       81                     

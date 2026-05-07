@@ -1,0 +1,4 @@
+model_name,checkpoint,status,test_loss,accuracy,precision,recall,f1_score
+resnet50,models/best_resnet50.pth,evaluated,0.31748,0.914286,0.915804,0.914286,0.914343
+densenet121,models/best_densenet121.pth,missing,,,,,
+efficientnet_b0,models/best_efficientnet_b0.pth,missing,,,,,

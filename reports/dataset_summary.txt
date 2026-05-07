@@ -1,0 +1,482 @@
+Dataset EDA Summary
+===================
+Data directory: data/Data
+
+Overall
+-------
+Valid images: 1000
+Corrupt files: 0
+Non-image files skipped: 0
+Pixel intensity stats (RGB channels, 0-255): count=461093952, min=0, max=255, mean=81.7659, std=74.4761, p01=0, p50=67, p99=255
+Image modes:
+  RGBA: 923
+  RGB: 74
+  L: 3
+Image sizes:
+  800x577: 17
+  371x251: 16
+  800x552: 13
+  619x481: 11
+  940x627: 10
+  581x476: 9
+  731x555: 9
+  850x506: 9
+  393x270: 8
+  438x338: 8
+  440x345: 8
+  441x341: 8
+  443x344: 8
+  366x234: 6
+  538x419: 6
+  543x475: 6
+  630x626: 6
+  615x495: 5
+  617x481: 5
+  629x491: 5
+  ... 778 more sizes omitted
+
+train
+-----
+Valid images: 613
+Corrupt files: 0
+Non-image files skipped: 0
+Pixel intensity stats (RGB channels, 0-255): count=266619378, min=0, max=255, mean=88.0828, std=75.9169, p01=0, p50=74, p99=255
+
+Images per class:
+  adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib: 195
+  large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa: 115
+  normal: 148
+  squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa: 155
+
+Image modes:
+  RGBA: 557
+  RGB: 53
+  L: 3
+Image sizes:
+  371x251: 8
+  393x270: 8
+  438x338: 8
+  443x344: 8
+  800x552: 8
+  800x577: 8
+  850x506: 8
+  366x234: 6
+  538x419: 6
+  543x475: 6
+  619x481: 6
+  630x626: 6
+  224x225: 4
+  400x358: 4
+  440x345: 4
+  441x341: 4
+  581x476: 4
+  600x475: 4
+  615x495: 4
+  617x481: 4
+  ... 462 more sizes omitted
+
+Class details:
+  adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib
+    Valid images: 195
+    Corrupt files: 0
+    Pixel intensity stats: count=62310570, min=0, max=255, mean=83.7525, std=61.9822, p01=0, p50=98, p99=254
+    Modes:
+    RGBA: 189
+    RGB: 6
+    Sizes:
+    225x225: 2
+    1200x802: 1
+    1200x874: 1
+    172x110: 1
+    172x130: 1
+    172x144: 1
+    175x152: 1
+    206x154: 1
+    212x170: 1
+    214x125: 1
+    216x136: 1
+    219x153: 1
+    221x147: 1
+    223x143: 1
+    223x164: 1
+    224x161: 1
+    240x134: 1
+    241x172: 1
+    252x200: 1
+    263x192: 1
+    ... 174 more sizes omitted
+  large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa
+    Valid images: 115
+    Corrupt files: 0
+    Pixel intensity stats: count=36210213, min=0, max=255, mean=62.4615, std=52.7810, p01=0, p50=60, p99=225
+    Modes:
+    RGBA: 111
+    RGB: 3
+    L: 1
+    Sizes:
+    168x122: 1
+    217x147: 1
+    218x156: 1
+    225x225: 1
+    240x210: 1
+    335x237: 1
+    348x230: 1
+    352x227: 1
+    355x274: 1
+    358x298: 1
+    361x220: 1
+    361x245: 1
+    361x277: 1
+    362x322: 1
+    365x256: 1
+    365x303: 1
+    366x229: 1
+    367x306: 1
+    369x281: 1
+    369x288: 1
+    ... 95 more sizes omitted
+  normal
+    Valid images: 148
+    Corrupt files: 0
+    Pixel intensity stats: count=117688308, min=0, max=255, mean=108.2899, std=90.7781, p01=0, p50=82, p99=255
+    Modes:
+    RGBA: 108
+    RGB: 38
+    L: 2
+    Sizes:
+    371x251: 8
+    393x270: 8
+    438x338: 8
+    443x344: 8
+    800x552: 8
+    800x577: 8
+    850x506: 8
+    366x234: 6
+    538x419: 6
+    543x475: 6
+    619x481: 6
+    630x626: 6
+    224x225: 4
+    400x358: 4
+    440x345: 4
+    441x341: 4
+    581x476: 4
+    600x475: 4
+    615x495: 4
+    617x481: 4
+    ... 11 more sizes omitted
+  squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa
+    Valid images: 155
+    Corrupt files: 0
+    Pixel intensity stats: count=50410287, min=0, max=255, mean=64.6636, std=49.9740, p01=0, p50=63, p99=170
+    Modes:
+    RGBA: 149
+    RGB: 6
+    Sizes:
+    265x190: 2
+    282x179: 2
+    404x240: 2
+    416x308: 2
+    240x210: 1
+    289x174: 1
+    306x237: 1
+    315x280: 1
+    327x286: 1
+    337x272: 1
+    339x260: 1
+    341x268: 1
+    342x252: 1
+    343x268: 1
+    345x272: 1
+    347x272: 1
+    349x255: 1
+    350x274: 1
+    351x244: 1
+    351x288: 1
+    ... 131 more sizes omitted
+
+valid
+-----
+Valid images: 72
+Corrupt files: 0
+Non-image files skipped: 0
+Pixel intensity stats (RGB channels, 0-255): count=31399131, min=0, max=255, mean=84.4698, std=70.7476, p01=0, p50=81, p99=252
+
+Images per class:
+  adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib: 23
+  large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa: 21
+  normal: 13
+  squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa: 15
+
+Image modes:
+  RGBA: 64
+  RGB: 8
+Image sizes:
+  512x512: 3
+  581x476: 2
+  940x627: 2
+  315x245: 1
+  324x265: 1
+  337x210: 1
+  338x238: 1
+  338x269: 1
+  342x232: 1
+  345x192: 1
+  345x255: 1
+  346x265: 1
+  350x248: 1
+  350x265: 1
+  353x216: 1
+  353x274: 1
+  355x273: 1
+  356x258: 1
+  358x220: 1
+  358x253: 1
+  ... 48 more sizes omitted
+
+Class details:
+  adenocarcinoma_left.lower.lobe_T2_N0_M0_Ib
+    Valid images: 23
+    Corrupt files: 0
+    Pixel intensity stats: count=6589122, min=0, max=255, mean=76.4451, std=51.7980, p01=0, p50=97, p99=171
+    Modes:
+    RGBA: 23
+    Sizes:
+    315x245: 1
+    338x269: 1
+    345x192: 1
+    353x216: 1
+    356x258: 1
+    358x253: 1
+    359x252: 1
+    361x202: 1
+    374x182: 1
+    377x251: 1
+    379x299: 1
+    381x219: 1
+    388x235: 1
+    394x275: 1
+    395x247: 1
+    406x256: 1
+    408x242: 1
+    408x249: 1
+    409x274: 1
+    421x246: 1
+    ... 3 more sizes omitted
+  large.cell.carcinoma_left.hilum_T2_N2_M0_IIIa
+    Valid images: 21
+    Corrupt files: 0
+    Pixel intensity stats: count=5632125, min=0, max=255, mean=74.9163, std=52.4193, p01=0, p50=100, p99=164
+    Modes:
+    RGBA: 21
+    Sizes:
+    337x210: 1
+    338x238: 1
+    342x232: 1
+    345x255: 1
+    346x265: 1
+    353x274: 1
+    355x273: 1
+    358x220: 1
+    369x267: 1
+    370x181: 1
+    376x259: 1
+    385x251: 1
+    386x205: 1
+    390x297: 1
+    391x247: 1
+    393x213: 1
+    396x209: 1
+    399x279: 1
+    401x213: 1
+    409x202: 1
+    ... 1 more sizes omitted
+  normal
+    Valid images: 13
+    Corrupt files: 0
+    Pixel intensity stats: count=14575533, min=0, max=255, mean=95.1116, std=86.4977, p01=0, p50=67, p99=255
+    Modes:
+    RGB: 8
+    RGBA: 5
+    Sizes:
+    512x512: 3
+    581x476: 2
+    940x627: 2
+    615x495: 1
+    617x481: 1
+    731x555: 1
+    800x552: 1
+    800x577: 1
+    850x506: 1
+  squamous.cell.carcinoma_left.hilum_T1_N2_M0_IIIa
+    Valid images: 15
+    Corrupt files: 0
+    Pixel intensity stats: count=4602351, min=0, max=255, mean=73.9474, std=50.7514, p01=0, p50=91, p99=167
+    Modes:
+    RGBA: 15
+    Sizes:
+    324x265: 1
+    350x248: 1
+    350x265: 1
+    363x245: 1
+    368x236: 1
+    378x295: 1
+    379x266: 1
+    392x248: 1
+    401x241: 1
+    403x263: 1
+    410x231: 1
+    423x308: 1
+    438x256: 1
+    438x284: 1
+    440x271: 1
+
+test
+----
+Valid images: 315
+Corrupt files: 0
+Non-image files skipped: 0
+Pixel intensity stats (RGB channels, 0-255): count=163075443, min=0, max=255, mean=70.9175, std=71.5008, p01=0, p50=53, p99=252
+
+Images per class:
+  adenocarcinoma: 120
+  large.cell.carcinoma: 51
+  normal: 54
+  squamous.cell.carcinoma: 90
+
+Image modes:
+  RGBA: 302
+  RGB: 13
+Image sizes:
+  371x251: 8
+  800x577: 8
+  619x481: 5
+  440x345: 4
+  441x341: 4
+  731x555: 4
+  800x552: 4
+  940x627: 4
+  581x476: 3
+  423x311: 2
+  424x326: 2
+  424x357: 2
+  443x324: 2
+  450x329: 2
+  460x341: 2
+  586x462: 2
+  773x523: 2
+  360x263: 1
+  365x322: 1
+  369x313: 1
+  ... 252 more sizes omitted
+
+Class details:
+  adenocarcinoma
+    Valid images: 120
+    Corrupt files: 0
+    Pixel intensity stats: count=54619215, min=0, max=255, mean=53.4749, std=55.0427, p01=0, p50=25, p99=166
+    Modes:
+    RGBA: 120
+    Sizes:
+    371x290: 1
+    379x309: 1
+    381x282: 1
+    385x262: 1
+    388x276: 1
+    388x369: 1
+    400x271: 1
+    401x310: 1
+    402x282: 1
+    406x364: 1
+    406x372: 1
+    409x280: 1
+    415x301: 1
+    415x374: 1
+    416x284: 1
+    416x291: 1
+    417x322: 1
+    422x365: 1
+    424x275: 1
+    424x357: 1
+    ... 100 more sizes omitted
+  large.cell.carcinoma
+    Valid images: 51
+    Corrupt files: 0
+    Pixel intensity stats: count=19644441, min=0, max=255, mean=52.3603, std=51.6394, p01=0, p50=28, p99=159
+    Modes:
+    RGBA: 51
+    Sizes:
+    370x295: 1
+    383x316: 1
+    384x310: 1
+    385x267: 1
+    387x322: 1
+    391x291: 1
+    395x305: 1
+    395x314: 1
+    396x287: 1
+    397x286: 1
+    402x322: 1
+    402x353: 1
+    405x297: 1
+    406x325: 1
+    409x288: 1
+    410x253: 1
+    411x285: 1
+    412x232: 1
+    412x301: 1
+    412x337: 1
+    ... 31 more sizes omitted
+  normal
+    Valid images: 54
+    Corrupt files: 0
+    Pixel intensity stats: count=50911203, min=0, max=255, mean=106.2969, std=90.2559, p01=0, p50=76, p99=255
+    Modes:
+    RGBA: 41
+    RGB: 13
+    Sizes:
+    371x251: 8
+    800x577: 8
+    619x481: 5
+    440x345: 4
+    441x341: 4
+    731x555: 4
+    800x552: 4
+    940x627: 4
+    581x476: 3
+    586x462: 2
+    773x523: 2
+    360x263: 1
+    607x465: 1
+    627x630: 1
+    629x491: 1
+    676x500: 1
+    700x700: 1
+  squamous.cell.carcinoma
+    Valid images: 90
+    Corrupt files: 0
+    Pixel intensity stats: count=37900584, min=0, max=255, mean=58.1484, std=53.3365, p01=0, p50=42, p99=162
+    Modes:
+    RGBA: 90
+    Sizes:
+    423x311: 2
+    424x326: 2
+    365x322: 1
+    369x313: 1
+    369x342: 1
+    373x336: 1
+    374x329: 1
+    376x309: 1
+    383x310: 1
+    384x302: 1
+    385x302: 1
+    385x313: 1
+    387x338: 1
+    389x282: 1
+    393x328: 1
+    393x352: 1
+    397x311: 1
+    397x349: 1
+    400x323: 1
+    402x314: 1
+    ... 68 more sizes omitted

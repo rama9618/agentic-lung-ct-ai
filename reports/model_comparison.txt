@@ -1,0 +1,29 @@
+Model Comparison
+================
+
+Model: resnet50
+Checkpoint: models/best_resnet50.pth
+Status: evaluated
+Test loss: 0.31748
+Accuracy: 0.914286
+Precision: 0.915804
+Recall: 0.914286
+Weighted F1-score: 0.914343
+
+Model: densenet121
+Checkpoint: models/best_densenet121.pth
+Status: missing
+Test loss: 
+Accuracy: 
+Precision: 
+Recall: 
+Weighted F1-score: 
+
+Model: efficientnet_b0
+Checkpoint: models/best_efficientnet_b0.pth
+Status: missing
+Test loss: 
+Accuracy: 
+Precision: 
+Recall: 
+Weighted F1-score: 
