@@ -17,6 +17,14 @@ It is built to demonstrate practical medical AI engineering: data loading, train
 
 > **Warning:** This project is a research prototype and not a clinical diagnostic tool.
 
+## Repository About
+
+Explainable lung CT tumor classification dashboard with Grad-CAM, pseudo-3D visualization, and AI assistant.
+
+## Suggested GitHub Topics
+
+`medical-ai` `pytorch` `streamlit` `grad-cam` `computer-vision` `lung-cancer` `explainable-ai`
+
 ## Demo Screenshots
 
 Place demo screenshots in `docs/images/` using these paths:
@@ -75,7 +83,7 @@ See [docs/architecture.md](docs/architecture.md) for the full system design.
 ## Model Comparison
 
 | Model | Status | Test Accuracy | Weighted F1 |
-|---|---:|---:|---:|
+| --- | --- | --- | --- |
 | ResNet50 | Evaluated | 91.43% | 91.43% |
 | DenseNet121 | Pending checkpoint | Placeholder | Placeholder |
 | EfficientNet-B0 | Pending checkpoint | Placeholder | Placeholder |
@@ -85,8 +93,8 @@ Detailed comparison notes are available in [docs/model_comparison.md](docs/model
 ## Installation
 
 ```bash
-git clone <your-repo-url>
-cd lungs_tumor
+git clone https://github.com/rama9618/agentic-lung-ct-ai.git
+cd agentic-lung-ct-ai
 pip install -r requirements.txt
 ```
 
